@@ -1,19 +1,19 @@
-Clone the repository:
+1- Clone the repository:
 
-git clone https://github.com/amaaraas/first-flsk/tree/master
+  git clone https://github.com/amaaraas/first-flsk/tree/master
 
-Create a virtual environment (if you want):
+2- Create a virtual environment (if you want):
 
-python -m venv FirstFlask source FirstFlask/bin/activate # On Windows: FirstFlask\Scripts\activate
+  python -m venv FirstFlask source FirstFlask/bin/activate # On Windows: FirstFlask\Scripts\activate
 
-Install dependencies:
+3- Install dependencies:
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
-Run the server:
+4- Run the server:
 
-flask --app app --debug run (--debug will help you to update every change just recharging the page) 
+  flask --app app --debug run (--debug will help you to update every change just recharging the page) 
 
-Access the API at:
+5- Access the API at:
 
-http://127.0.0.1:5000/
+  http://127.0.0.1:5000/
